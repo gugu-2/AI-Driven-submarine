@@ -1,0 +1,48 @@
+{
+  "name": "Military_AUV_Training_Env",
+  "world": "OpenWater",
+  "agents": [
+    {
+      "agent_name": "auv_tactical",
+      "agent_type": "HoveringAUV",
+      "sensors": [
+        {
+          "sensor_type": "IMUSensor",
+          "socket": "IMUSocket",
+          "configuration": {
+            "AccelNoise": 0.001,
+            "GyroNoise": 0.0001
+          }
+        },
+        {
+          "sensor_type": "DVLSensor",
+          "socket": "DVLSocket",
+          "configuration": {
+            "Elevation": 22.5,
+            "Frequency": 300000,
+            "MaxRange": 100.0
+          }
+        },
+        {
+          "sensor_type": "ImagingSonar",
+          "socket": "SonarSocket",
+          "configuration": {
+            "Range": 50.0,
+            "HorizontalFOV": 120,
+            "VerticalFOV": 20
+          }
+        },
+        {
+          "sensor_type": "DepthSensor",
+          "socket": "DepthSocket"
+        }
+      ],
+      "control_scheme": 1,
+      "location": [0.0, 0.0, -50.0]
+    }
+  ],
+  "weather": {
+    "current_speed": 1.5,
+    "current_direction": [1.0, 0.0, 0.0]
+  }
+}
