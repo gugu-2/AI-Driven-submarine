@@ -19,6 +19,7 @@ Welcome to the open-source repository for the Fully Autonomous Submarine. This r
 *   `/simulation/`: Configuration files for the HoloOcean physics engine.
 *   `/docs/`: Detailed guides for Architecture, Installation, and Simulation.
 
+---
 ## 🏁 Quick Start
 
 To see the core reactive system in action:
