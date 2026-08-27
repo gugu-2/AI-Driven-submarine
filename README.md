@@ -1,4 +1,5 @@
-# AI-Driven Submarine (AUV) Architecture---
+# AI-Driven Submarine (AUV) Architecture
+
 
 Welcome to the open-source repository for the Fully Autonomous Submarine. This repository contains the core logic for a robust, GPS-denied autonomous underwater vehicle capable of complex navigation, obstacle avoidance, and weather-aware depth management.
 
